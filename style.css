@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height: 85vh;
+    width: 100vw;
+}
+#score{
+    width: 100vw;
+    height: 10vh;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4ch;
+}
+#Game{
+    width: 100vw;
+    height: 75vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#playerSide{
+    width: 49vw;
+    height: 75vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#chosenP{
+    width: 49vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4ch;
+
+}
+#choices{
+    width: 49vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 5vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+#compSide{
+    width: 49vw;
+    height: 75vh;
+    background-color: aliceblue;
+}
+#chosenC{
+    width: 49vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4ch;
+
+}
+footer{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
